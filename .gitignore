@@ -1,0 +1,7 @@
+node_modules/
+# Carpeta para pruebas del entorno de produción
+Debug/ 
+# Carpeta final para producción
+Project/
+
+package-lock.json

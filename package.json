@@ -1,0 +1,19 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Framework para desarrollo web de tipo full stack teniendo en cuenta una arquitectura de servicios",
+  "main": "Tools/Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Reactjs",
+    "Express",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Tailwind"
+  ],
+  "author": "Kevin Pérez Escamilla",
+  "license": "ISC"
+}
