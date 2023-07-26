@@ -3,17 +3,25 @@
   "version": "1.0.0",
   "description": "Framework para desarrollo web de tipo full stack teniendo en cuenta una arquitectura de servicios",
   "main": "Tools/Main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init-server": "cd Server && npm i && cd ..",
+    "init-react": "cd Client && npm i && cd ..",
+    "initG" : "concurrently -n server,Reactjs \"npm run init-server\" \"npm run init-react\"",
+    "dev-react": "cd Client && npm run dev && cd ..",
+    "dev-server": "cd Server && npm run dev && cd ..",
+    "dev":"concurrently -n server,Reactjs \"npm run dev-server\" \"npm run dev-react\""
   },
   "keywords": [
     "Reactjs",
-    "Express",
     "JavaScript",
     "HTML",
     "CSS",
-    "Tailwind"
+    "Docker"
   ],
   "author": "Kevin Pérez Escamilla",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
