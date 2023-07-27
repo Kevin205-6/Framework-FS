@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Carpeta para desarrollo backend",
   "main": "Main.js",
+  "type": "module",
   "scripts": {
     "start": "node .",
     "dev": "nodemon ."
